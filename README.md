@@ -15,7 +15,9 @@ The code skeleton is based on "https://github.com/junyanz/pytorch-CycleGAN-and-p
   
 
 ### Training dataset:
-Download the dataset from Google drive: 
+Download the dataset from Google drive: [Comming soon]
+### Test images:
+Download the test image dataset from Google drive: 
 #### Pretrained model:
 Download the pretrained the model: https://www.dropbox.com/s/cn1xylahysyqmnr/pretrained_models.zip?dl=0
 
@@ -24,4 +26,11 @@ To train your network, run the following command
 ```bash
     python train.py --dataroot {path_to_training_data} --model threelayers --name {your_training_name} 
     --lrA 0.0001 --lrB 0.0001 --niter 100 --niter_decay 100 --display_id -1 --gpu_ids {your_gpu_ids}
+```
+
+### Test image
+To test the performance, run the following command
+```bash
+    python test.py --dataroot {path_to_test_data} --model threelayers --name {your_training_name} 
+    --gpu_ids {your_gpu_ids}
 ```
