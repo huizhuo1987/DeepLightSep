@@ -15,9 +15,9 @@ The code skeleton is based on "https://github.com/junyanz/pytorch-CycleGAN-and-p
   
 
 ### Training dataset:
-Download the dataset from Google drive: [Comming soon]
+Download the dataset from Google drive: https://drive.google.com/file/d/1vcXDEKEQ_Id-ote0tfn4RDEF2fw6fzYs/view?usp=sharing
 ### Test images:
-Download the test image dataset from Google drive: 
+Download the test image dataset from Google drive: https://drive.google.com/file/d/1MIPR3bvOVf-Bvcltu6-LZcTl7-sgl93U/view?usp=sharing
 #### Pretrained model:
 Download the pretrained the model: https://www.dropbox.com/s/cn1xylahysyqmnr/pretrained_models.zip?dl=0
 
